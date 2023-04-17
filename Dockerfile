@@ -2,8 +2,6 @@ FROM ubuntu:22.10
 
 MAINTAINER Tim Chaubet <tim@chaubet.be>
 
-COPY ./requirements.txt requirements.txt
-
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
        python3 \
