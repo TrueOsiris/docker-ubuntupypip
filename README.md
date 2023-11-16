@@ -10,6 +10,6 @@ minimal ubuntu image with python3 and pip installed
 ![Github last-commit](https://img.shields.io/github/last-commit/TrueOsiris/docker-ubuntupypip)
 
 ### Versions
-ubuntu:22.10<br>
+ubuntu:23.04<br>
 python3.11<br>
 pip3
