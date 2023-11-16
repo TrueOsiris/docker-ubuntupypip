@@ -21,5 +21,5 @@ RUN apt-get update \
  && apt-get clean -y \
  && apt-get autoremove -y \
  && rm -rf /var/lib/apt/lists/* \
- && python3 -m venv /.venv/app \
- && export PATH=$PATH:/.venv/app
+ && python3 -m venv .venv/app 
+WORKDIR .venv/app
